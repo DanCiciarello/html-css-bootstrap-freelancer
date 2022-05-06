@@ -13,7 +13,9 @@
 
 :root {
     --cd_blue: #2F3E4E;
+    --cd-lightblue: #3E5369;
     --cd_green: #58B99D;
+    --cd_green-hover: #3a826e;
 }
 
 
@@ -25,6 +27,61 @@
     background-color: var(--cd_blue);
 }
 
+.cd_bg-lightblue {
+    background-color: var(--cd-lightblue);
+}
+
 .cd_bg-green {
     background-color: var(--cd_green);
+}
+
+.cd_bg-green-btn {
+    background-color: var(--cd_green);
+}
+
+.cd_bg-green-btn:hover {
+    background-color: var(--cd_green-hover);
+    border-color: var(--cd_green-hover);
+}
+
+.cd_border-green {
+    border-color: var(--cd_green);
+}
+
+.cd-color-green {
+    color: var(--cd_green);
+}
+
+
+/*-------*/
+/* Icons */
+/*-------*/
+
+.cd_footer-icon {
+    display: inline-block;
+    width: 40px;
+    aspect-ratio: 1;
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+
+/*------*/
+/* Form */
+/*------*/
+
+.cd_form-input {
+    border: none;
+    border-radius: 0;
+    border-bottom: 1px solid lightgray;
+}
+
+
+/*--------*/
+/* Custom */
+/*--------*/
+
+.about i {
+    padding-right: 10px;
 }
