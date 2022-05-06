@@ -1,0 +1,30 @@
+/*-------*/
+/* Debug */
+/*-------*/
+
+.debug {
+    border: 1px dashed red;
+}
+
+
+/*----------*/
+/* Generals */
+/*----------*/
+
+:root {
+    --cd_blue: #2F3E4E;
+    --cd_green: #58B99D;
+}
+
+
+/*--------*/
+/* Colors */
+/*--------*/
+
+.cd_bg-blue {
+    background-color: var(--cd_blue);
+}
+
+.cd_bg-green {
+    background-color: var(--cd_green);
+}
