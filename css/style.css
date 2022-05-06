@@ -64,6 +64,7 @@
     border: 1px solid white;
     border-radius: 50%;
     padding: 5px;
+    margin: 0 3px;
 }
 
 
@@ -84,4 +85,9 @@
 
 .about i {
     padding-right: 10px;
+}
+
+#portfolio .col-12 img {
+    width: 100%;
+    border-radius: 10px;
 }
