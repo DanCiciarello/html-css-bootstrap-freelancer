@@ -1,12 +1,3 @@
-/*-------*/
-/* Debug */
-/*-------*/
-
-.debug {
-    border: 1px dashed red;
-}
-
-
 /*----------*/
 /* Generals */
 /*----------*/
@@ -83,11 +74,29 @@
 /* Custom */
 /*--------*/
 
-.about i {
+#about i {
     padding-right: 10px;
 }
 
 #portfolio .col-12 img {
     width: 100%;
     border-radius: 10px;
+}
+
+.cd_divider i {
+    font-size: 1.5rem;
+    padding-right: 0!important;
+}
+
+i.cd_icon-white {
+    color: white;
+}
+
+.cd_divider .cd_line-divider {
+    border: 1.5px solid;
+    opacity: 1;
+}
+
+.cd_line-divider.cd_line-divider-white {
+    border-color: white;
 }
